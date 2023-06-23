@@ -4,7 +4,7 @@ import Product from './product'
 const Image = () => {
   return (
     <>
-       <img src={Product.image} alt="" style={{maxWidth: '100%'}}/>
+       <img src={Product.image} alt="" style={{maxWidth: '100%', borderRadius:8 }}/>
     </>
   )
 }
